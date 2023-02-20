@@ -1,18 +1,10 @@
-## Getting Started
+Easy Problems just for getting the Recursion base right:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Factorial (Find the factorial of a number)
+2. leetcode1342.java (Given an integer num, return the number of steps to reduce it to zero.)
+3. N to 1 (Return all numbers from N to 1)
+4. OneToN (return all numbers from 1 to N)
+5. ProductOfDigits (Return product of all digits in a number)
+6. ReverseANumber (reverse a number)
+7. SumOfDigits (Return sum of all digits)
+8. ZeroCount (Count number of 0s in a number)
