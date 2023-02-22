@@ -5,23 +5,26 @@
 package recursion_array_problems;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class returnIndexOfElement {
     public static void main(String args[]) {
         int nums[] = { 1, 2, 4, 4, 6, 7 };
-        findIndex(nums, 4, 0);
-        System.out.println(list);
+        returnIndexOfElement obj = new returnIndexOfElement();
+        ArrayList<Integer> list = new ArrayList<>();
+        list = obj.findIndex(nums, 4, 0, new ArrayList<>());
+        System.out.println(Arrays.asList(list));
     }
 
-    static ArrayList<Integer> list = new ArrayList<>();
+    // static ArrayList<Integer> list = new ArrayList<>();
 
-    static void findIndex(int nums[], int target, int i) {
+    public ArrayList<Integer> findIndex(int nums[], int target, int i, ArrayList<Integer> list) {
         if (i == nums.length) {
-            return;
+            return list;
         }
         if (nums[i] == target) {
             list.add(i);
         }
-        findIndex(nums, target, i + 1);
+        return findIndex(nums, target, i + 1, list);
     }
 }
